@@ -1,0 +1,59 @@
+body{
+    background-color:rgb(66, 64, 64);
+    margin:0;
+}
+.heading{
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    font-weight:normal;
+    font-size: 20px;
+    padding:0;  
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    padding:2px 20px;
+}
+.btn{
+    width:100px;
+    height:30px;
+    border:2px solid blue;
+    color:blue;
+}
+button{
+    cursor:pointer;
+    text-decoration:none;
+    background:none;   
+}
+.sorting-container button{
+    margin-right:10px;
+}
+.bars-container{
+    display:flex;
+    justify-content:center;
+
+}
+.bars{
+    background-color: purple;
+    width:10px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.bars.val4{
+    height:40px;
+}
+.bars.val6{
+    height:60px;
+}
+.bars.val3{
+    height:30px;
+}
+.bars.val2{
+    height:60px;
+}
+.bars.val9{
+    height:60px;
+}
+
+
